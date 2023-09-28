@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Mudei o título</title>
+    </head>
+    <body>
+        <div>
+            <h2>Formulários</h2>
+            <div>
+                <h3>Formulário com Método [GET] e target _SELF</h3>
+                <form name="contact" onsubmit="alert('Enviei o formulário')" target="_self" method="GET" action="#">
+                    <label>Nome</label>
+                    <input type="text" placeholder="Digite um nome" id="nome" name="nome"/><br>
+                    <label>Idade</label>
+                    <input type="number" placeholder="Digite a idade" id="idade" name="idade"/><br>
+                    <label>E-mail</label>
+                    <input type="email" placeholder="Digite seu e-mail" id="email" name="email"/><br>
+                    <label>Senha</label>
+                    <input type="password" placeholder="Digite uma senha" id="senha" name="senha"/><br>
+                    <label>Data</label>
+                    <input type="date" placeholder="Escolha uma data" id="data" name="data"/><br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <h3>Formulário com Método [POST] e target _BLANK</h3>
+                <form name="contact" target="_blank" method="POST" action="#">
+                    <label>Nome</label>
+                    <input type="text" placeholder="Digite um nome" id="nome" name="nome"/><br>
+                    <label>Idade</label>
+                    <input type="number" placeholder="Digite a idade" id="idade" name="idade"/><br>
+                    <label>E-mail</label>
+                    <input type="email" placeholder="Digite seu e-mail" id="email" name="email"/><br>
+                    <label>Senha</label>
+                    <input type="password" placeholder="Digite uma senha" id="senha" name="senha"/><br>
+                    <label>Data</label>
+                    <input type="date" placeholder="Escolha uma data" id="data" name="data"/><br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

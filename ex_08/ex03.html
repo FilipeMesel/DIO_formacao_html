@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Mudei o título</title>
+        <style>
+            .row{
+                margin: 5px;
+            }
+            label {
+                width: 100px;
+                text-align: right;
+                padding-right: 5px;
+            }
+            fieldset{
+                margin: 5px 0px;
+                border-radius: 50px;
+                border-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Fieldsets</h2>
+        <form>
+            <fieldset>
+                <legend>Com legenda</legend>
+                <div class="row">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" />
+                </div>
+                <div class="row">
+                    <label>Idade:</label>
+                    <input type="text" name="idade" />
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="row">
+                    <label>Senha sem legenda:</label>
+                    <input type="text" name="senha" />
+                </div>
+                <div class="row">
+                    <label>Whatsapp:</label>
+                    <input type="text" name="whatsapp" />
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

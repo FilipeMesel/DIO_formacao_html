@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Mudei o título</title>
+    </head>
+    <body>
+        <div>
+            <h2>Diversos tipos de select</h2>
+            <div>
+                <form name="contact" method="get">
+                    <label>Nome: </label>
+                    <input type="text" name="nome" /><br>
+                    <label>Idade: </label>
+                    <input type="number" name="idade" /><br>
+                    <label>Password: </label>
+                    <input type="password" name="password" /><br>
+                    <label>Cargo1: </label>
+                    <select name="cargo1">
+                        <option value="">Selecione o cargo</option>
+                        <option value="Administrativo">Administrativo</option>
+                        <option selected value="Gerente">Gerente</option>
+                        <option value="Diretor">Diretor</option>
+                    </select><br>
+                    <label>Cargo2: </label>
+                    <select name="cargo2" multiple>
+                        <option value="">Selecione vários cargos</option>
+                        <option value="Administrativo">Administrativo</option>
+                        <option selected value="Gerente">Gerente</option>
+                        <option value="Diretor">Diretor</option>
+                    </select><br>
+
+                    <button type="button" onmouseover="alert('Passei o mouse aqui')">
+                        Passe o mouse
+                    </button>
+                    <button type="reset">
+                        Resetar o Formulário
+                    </button>
+                    <button type="submit">
+                        Enviar o Formulário
+                    </button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

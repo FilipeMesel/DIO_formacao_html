@@ -1,3 +1,7 @@
+# Formação HTML da DIO
+
+Curso sobre HTML da DIO
+
 ## Exemplos
 
     1. Exemplo 01: Mostra os elementos básicos de HTML: Head, Body e tag HTML
